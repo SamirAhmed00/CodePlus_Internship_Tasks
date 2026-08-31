@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "ShopFlow.Controllers.CartController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Cart/items",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ShopFlow.Features.AddToCart.AddToCartRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
