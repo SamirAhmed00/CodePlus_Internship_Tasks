@@ -1,0 +1,132 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "OrderFlow.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/dashboard/orders": {
+      "get": {
+        "tags": [
+          "Dashboard"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/orders": {
+      "post": {
+        "tags": [
+          "Orders"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateOrderCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateOrderCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateOrderCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/orders/{id}": {
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateOrderCommand": {
+        "type": "object",
+        "properties": {
+          "customerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderItemInput"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderItemInput": {
+        "type": "object",
+        "properties": {
+          "productName": {
+            "type": "string",
+            "nullable": true
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "unitPrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Dashboard"
+    },
+    {
+      "name": "Orders"
+    }
+  ]
+}

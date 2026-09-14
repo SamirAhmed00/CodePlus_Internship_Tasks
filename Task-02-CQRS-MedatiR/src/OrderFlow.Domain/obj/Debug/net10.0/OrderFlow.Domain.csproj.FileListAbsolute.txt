@@ -1,0 +1,12 @@
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\bin\Debug\net10.0\OrderFlow.Domain.deps.json
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\bin\Debug\net10.0\OrderFlow.Domain.dll
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\bin\Debug\net10.0\OrderFlow.Domain.pdb
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\obj\Debug\net10.0\OrderFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\obj\Debug\net10.0\OrderFlow.Domain.AssemblyInfoInputs.cache
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\obj\Debug\net10.0\OrderFlow.Domain.AssemblyInfo.cs
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\obj\Debug\net10.0\OrderFlow.Domain.csproj.CoreCompileInputs.cache
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\obj\Debug\net10.0\OrderFlow.Domain.sourcelink.json
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\obj\Debug\net10.0\OrderFlow.Domain.dll
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\obj\Debug\net10.0\refint\OrderFlow.Domain.dll
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\obj\Debug\net10.0\OrderFlow.Domain.pdb
+C:\Users\basmf\source\repos\CodePlus_Internship_Tasks\Task-02-CQRS-MedatiR\src\OrderFlow.Domain\obj\Debug\net10.0\ref\OrderFlow.Domain.dll

@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35DE7213-A295-DB1F-3F56-6F31D534D51B}|src\\OrderFlow.Api\\OrderFlow.Api.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DE7213-A295-DB1F-3F56-6F31D534D51B}|src\\OrderFlow.Api\\OrderFlow.Api.csproj|solutionrelative:src\\orderflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DE7213-A295-DB1F-3F56-6F31D534D51B}|src\\OrderFlow.Api\\OrderFlow.Api.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DE7213-A295-DB1F-3F56-6F31D534D51B}|src\\OrderFlow.Api\\OrderFlow.Api.csproj|solutionrelative:src\\orderflow.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DE7213-A295-DB1F-3F56-6F31D534D51B}|src\\OrderFlow.Api\\OrderFlow.Api.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DE7213-A295-DB1F-3F56-6F31D534D51B}|src\\OrderFlow.Api\\OrderFlow.Api.csproj|solutionrelative:src\\orderflow.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DE7213-A295-DB1F-3F56-6F31D534D51B}|src\\OrderFlow.Api\\OrderFlow.Api.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.api\\middleware\\orderdomainexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DE7213-A295-DB1F-3F56-6F31D534D51B}|src\\OrderFlow.Api\\OrderFlow.Api.csproj|solutionrelative:src\\orderflow.api\\middleware\\orderdomainexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B140BC38-E8DA-9EA3-F540-BF9A4D414650}|src\\OrderFlow.Infrastructure\\OrderFlow.Infrastructure.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.infrastructure\\persistence\\orderflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B140BC38-E8DA-9EA3-F540-BF9A4D414650}|src\\OrderFlow.Infrastructure\\OrderFlow.Infrastructure.csproj|solutionrelative:src\\orderflow.infrastructure\\persistence\\orderflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B140BC38-E8DA-9EA3-F540-BF9A4D414650}|src\\OrderFlow.Infrastructure\\OrderFlow.Infrastructure.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B140BC38-E8DA-9EA3-F540-BF9A4D414650}|src\\OrderFlow.Infrastructure\\OrderFlow.Infrastructure.csproj|solutionrelative:src\\orderflow.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B140BC38-E8DA-9EA3-F540-BF9A4D414650}|src\\OrderFlow.Infrastructure\\OrderFlow.Infrastructure.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.infrastructure\\caching\\redisordercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B140BC38-E8DA-9EA3-F540-BF9A4D414650}|src\\OrderFlow.Infrastructure\\OrderFlow.Infrastructure.csproj|solutionrelative:src\\orderflow.infrastructure\\caching\\redisordercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B140BC38-E8DA-9EA3-F540-BF9A4D414650}|src\\OrderFlow.Infrastructure\\OrderFlow.Infrastructure.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.infrastructure\\backgroundservices\\orderprocessingworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B140BC38-E8DA-9EA3-F540-BF9A4D414650}|src\\OrderFlow.Infrastructure\\OrderFlow.Infrastructure.csproj|solutionrelative:src\\orderflow.infrastructure\\backgroundservices\\orderprocessingworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.domain\\readmodels\\orderdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|solutionrelative:src\\orderflow.domain\\readmodels\\orderdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.domain\\exceptions\\orderdomainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|solutionrelative:src\\orderflow.domain\\exceptions\\orderdomainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|solutionrelative:src\\orderflow.domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|solutionrelative:src\\orderflow.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|c:\\users\\basmf\\source\\repos\\codeplus_internship_tasks\\task-02-cqrs-medatir\\src\\orderflow.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|solutionrelative:src\\orderflow.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Api\\Program.cs",
+              "RelativeToolTip": "src\\OrderFlow.Api\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:44:48.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Api\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Api\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Api\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "src\\OrderFlow.Api\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:44:39.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Api\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Api\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Api\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "src\\OrderFlow.Api\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:44:36.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDomainExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Api\\Middleware\\OrderDomainExceptionHandler.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Api\\Middleware\\OrderDomainExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Api\\Middleware\\OrderDomainExceptionHandler.cs",
+              "RelativeToolTip": "src\\OrderFlow.Api\\Middleware\\OrderDomainExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:44:00.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderFlowDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Infrastructure\\Persistence\\OrderFlowDbContext.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Infrastructure\\Persistence\\OrderFlowDbContext.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Infrastructure\\Persistence\\OrderFlowDbContext.cs",
+              "RelativeToolTip": "src\\OrderFlow.Infrastructure\\Persistence\\OrderFlowDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:43:51.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\OrderFlow.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:43:49.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RedisOrderCache.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Infrastructure\\Caching\\RedisOrderCache.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Infrastructure\\Caching\\RedisOrderCache.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Infrastructure\\Caching\\RedisOrderCache.cs",
+              "RelativeToolTip": "src\\OrderFlow.Infrastructure\\Caching\\RedisOrderCache.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:43:25.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderProcessingWorker.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Infrastructure\\BackgroundServices\\OrderProcessingWorker.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Infrastructure\\BackgroundServices\\OrderProcessingWorker.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Infrastructure\\BackgroundServices\\OrderProcessingWorker.cs",
+              "RelativeToolTip": "src\\OrderFlow.Infrastructure\\BackgroundServices\\OrderProcessingWorker.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowGQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:42:50.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Domain\\ReadModels\\OrderDashboard.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\ReadModels\\OrderDashboard.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Domain\\ReadModels\\OrderDashboard.cs",
+              "RelativeToolTip": "src\\OrderFlow.Domain\\ReadModels\\OrderDashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:42:39.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDomainException.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Domain\\Exceptions\\OrderDomainException.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Exceptions\\OrderDomainException.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Domain\\Exceptions\\OrderDomainException.cs",
+              "RelativeToolTip": "src\\OrderFlow.Domain\\Exceptions\\OrderDomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:42:35.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Domain\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Domain\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "src\\OrderFlow.Domain\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:42:33.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "src\\OrderFlow.Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:41:22.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\basmf\\source\\repos\\CodePlus_Internship_Tasks\\Task-02-CQRS-MedatiR\\src\\OrderFlow.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "src\\OrderFlow.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:40:49.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
