@@ -1,0 +1,123 @@
+apiVersion: 1
+
+groups:
+  - orgId: 1
+    name: orderflow-alerts
+    folder: OrderFlow
+    interval: 10s
+    rules:
+      - uid: orderflow-high-error-rate
+        title: High Error Rate
+        condition: C
+        data:
+          - refId: A
+            relativeTimeRange:
+              from: 600
+              to: 0
+            datasourceUid: prometheus
+            model:
+              editorMode: code
+              expr: >-
+                sum(rate(orderflow_http_errors_total{http_response_status_code=~"5.."}[5m]))
+                / clamp_min(sum(rate(orderflow_http_requests_total[5m])), 0.001)
+              instant: true
+              intervalMs: 1000
+              maxDataPoints: 43200
+              range: false
+              refId: A
+          - refId: C
+            relativeTimeRange:
+              from: 600
+              to: 0
+            datasourceUid: __expr__
+            model:
+              conditions:
+                - evaluator:
+                    params: [0.05]
+                    type: gt
+                  operator:
+                    type: and
+                  query:
+                    params: [A]
+                  reducer:
+                    params: []
+                    type: last
+                  type: query
+              datasource:
+                type: __expr__
+                uid: __expr__
+              expression: A
+              intervalMs: 1000
+              maxDataPoints: 43200
+              refId: C
+              type: threshold
+        noDataState: NoData
+        execErrState: Error
+        for: 2m
+        annotations:
+          summary: HTTP 5xx error rate is above 5%
+          description: >-
+            More than 5% of the HTTP requests handled by OrderFlow returned a 5xx status code
+            over the last 5 minutes. Check Grafana Explore (/metrics), the application logs for
+            the "Unhandled exception" entries and the failing traces in Jaeger.
+        labels:
+          severity: critical
+          service: orderflow-api
+        isPaused: false
+
+      - uid: orderflow-redis-unavailable
+        title: Redis Unavailable
+        condition: C
+        data:
+          - refId: A
+            relativeTimeRange:
+              from: 600
+              to: 0
+            datasourceUid: prometheus
+            model:
+              editorMode: code
+              expr: min(redis_up)
+              instant: true
+              intervalMs: 1000
+              maxDataPoints: 43200
+              range: false
+              refId: A
+          - refId: C
+            relativeTimeRange:
+              from: 600
+              to: 0
+            datasourceUid: __expr__
+            model:
+              conditions:
+                - evaluator:
+                    params: [1]
+                    type: lt
+                  operator:
+                    type: and
+                  query:
+                    params: [A]
+                  reducer:
+                    params: []
+                    type: last
+                  type: query
+              datasource:
+                type: __expr__
+                uid: __expr__
+              expression: A
+              intervalMs: 1000
+              maxDataPoints: 43200
+              refId: C
+              type: threshold
+        noDataState: Alerting
+        execErrState: Error
+        for: 1m
+        annotations:
+          summary: Redis is not reachable
+          description: >-
+            The Redis exporter reports redis_up = 0 (or has stopped reporting), so the OrderFlow
+            order detail cache is unavailable. The API keeps serving requests from SQL Server, but
+            every read is a cache miss — check the orderflow-redis container.
+        labels:
+          severity: warning
+          service: redis
+        isPaused: false

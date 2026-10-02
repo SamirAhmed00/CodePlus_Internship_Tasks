@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 5s
+  scrape_timeout: 4s
+
+scrape_configs:
+  # OrderFlow API runs on the host (SQL Server uses Windows authentication),
+  # so Prometheus reaches it through the Docker host gateway.
+  - job_name: orderflow-api
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["host.docker.internal:5222"]
+
+  - job_name: redis
+    static_configs:
+      - targets: ["redis-exporter:9121"]
